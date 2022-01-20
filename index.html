@@ -1,74 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do Website</title>
-    <link rel="stylesheet" href="./style/index.css">
+	<title>Home - To Do</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-
 <body>
-    <header>
-        <div>
-            <img width="40px" height="40px" src="./assets/logo.png"/>
-            <h1>To Do Website</h1>
-        </div>
-       
-       
-        <nav>
-            
-            <ul>
-                <li><a class="active" href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-              </ul>
-        </nav>
+<ul>
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./about.html">Abous us</a></li>
+	</ul>
+<center>
 
-    </header>
-    <main>
-       
-        <table>
-            <tr>
-              <th>Task</th>
-              <th>Status</th>
-            </tr>
-            <tr>
-              <td>Create a new repositry called todo-project</td>
-              <td>Done</td>
-            </tr>
-            <tr>
-              <td>Add a README file.</td>
-              <td>Skipped</td>
+<h1>ToDo List</h1>
 
-            </tr>
-            <tr>
-              <td>Clone this repo to your local machine.</td>
-              <td>Completed</td>
+<table border="1">
+	<tr>
+		<th class="list">List</th>
+		<th>Status</th>
+	</tr>
+	<tr>
+		<td class="list">Learn JS <input type="checkbox" checked></td>
+		<td bgcolor="green"></td>
+	</tr>
+	<tr>
+		<td class="list">Create HTML page <input type="checkbox"></td>
+		<td bgcolor="red"></td>
+	</tr>
+	<tr>
+		<td class="list">Walk the dog <input type="checkbox"></td>
+		<td bgcolor="red"></td>
+	</tr>
+	<tr>
+		<td class="list">Watch the match <input type="checkbox"></td>
+		<td bgcolor="red"></td>
+	</tr>
+</table> 
 
-            </tr>
-            <tr>
-              <td>Checkout a new branch called todo-html for today's task.</td>
-              <td>Inprogress</td>
+<br><br><br>
 
-            </tr>
-            <tr>
-              <td>Open it in VS code.</td>
-              <td>Cancled</td>
+<address>
+    	© 2022 ASAC. All Rights Reserved
+</address>
 
-            </tr>
-            
-          </table>
+</center>
 
-    </main>
-
-    <br>
-    <hr>
-    <br>
-    
-    <footer>
-        <p> &copy; Copyright 2022 by Rafat A. Samara</p>
-    </footer>
 </body>
-
 </html>
