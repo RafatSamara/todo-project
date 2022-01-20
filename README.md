@@ -22,5 +22,5 @@
 2. How long did it take you to complete this assignment? And, before you started?
 - 30 mnts
 3.  how long did you think it would take you to complete this assignment?
-- around 30 mnts :$
+- around 30 mnts :$ 
     
