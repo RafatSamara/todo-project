@@ -49,12 +49,20 @@ if (confirm("Would you want to skip the welcoming message ?")){
     answersArray[count] = (answersArray[count] == "yes" || answersArray[count] == "no")? answersArray[count] : "Invalid";
  }
 
- while (count--){
-    
-    askQuestion();
-    saveAnswer();
-    
-
+ function printResults (){
+     for (var i = 1 ; i <= 3 ; ++i){
+        console.log ("\nQuestion [ " + i + " ]:");
+        console.log (questionsArray[i]);
+        console.log ("\nAnswer:");
+        console.log (answersArray[i]);
+     }
  }
+
+ while (count--){
+    askQuestion();
+    saveAnswer();    
+ }
+
+ printResults();
 
  console.log (answersArray);
